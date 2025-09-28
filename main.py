@@ -15,7 +15,7 @@ def menu():
 def main():
     caminho = input("Digite o caminho do arquivo de entrada (.txt): ")
     grafo = ler_grafo(caminho)
-     print(f"Grafo carregado do arquivo: {caminho}\n")
+    print(f"Grafo carregado do arquivo: {caminho}\n")
 
     vertices = list(grafo.keys())  # Lê automaticamente todos os vértices
 
